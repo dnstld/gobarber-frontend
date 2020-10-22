@@ -12,12 +12,17 @@ import { Container, Content, Background } from './styles';
 const SignIn: React.FC = () => (
   <Container>
     <Content>
-      <img src={logoImg} alt="GoBarber"/>
+      <img src={logoImg} alt="GoBarber" />
       <form>
         <h1>Faça seu logon</h1>
 
-        <Input name="email" icon={FiMail} type="email" placeholder="Email"/>
-        <Input name="password" icon={FiLock} type="password" placeholder="Senha"/>
+        <Input name="email" icon={FiMail} type="email" placeholder="Email" />
+        <Input
+          name="password"
+          icon={FiLock}
+          type="password"
+          placeholder="Senha"
+        />
         <Button type="submit">Entrar</Button>
         <a href="forgot">Esqueci minha senha</a>
       </form>
@@ -28,6 +33,6 @@ const SignIn: React.FC = () => (
     </Content>
     <Background />
   </Container>
-)
+);
 
 export default SignIn;

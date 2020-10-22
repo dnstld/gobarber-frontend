@@ -33,10 +33,10 @@ export const Content = styled.div`
       display: block;
       margin-top: 24px;
       text-decoration: none;
-      transition: color .2s;
+      transition: color 0.2s;
 
       &:hover {
-        color: ${shade(0.2, '#f4ede8')}
+        color: ${shade(0.2, '#f4ede8')};
       }
     }
   }
@@ -47,10 +47,10 @@ export const Content = styled.div`
     align-items: center;
     margin-top: 24px;
     text-decoration: none;
-    transition: color .2s;
+    transition: color 0.2s;
 
     &:hover {
-      color: ${shade(0.2, '#f4ede8')}
+      color: ${shade(0.2, '#f4ede8')};
     }
 
     svg {

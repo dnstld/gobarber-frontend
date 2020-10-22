@@ -13,12 +13,12 @@ const SignUp: React.FC = () => (
   <Container>
     <Background />
     <Content>
-      <img src={logoImg} alt="GoBarber"/>
+      <img src={logoImg} alt="GoBarber" />
       <form>
         <h1>Faça seu cadastro</h1>
 
-        <Input name="name" icon={FiUser} type="text" placeholder="Name"/>
-        <Input name="email" icon={FiMail} type="email" placeholder="Email"/>
+        <Input name="name" icon={FiUser} type="text" placeholder="Name" />
+        <Input name="email" icon={FiMail} type="email" placeholder="Email" />
         <Button type="submit">Cadastrar</Button>
       </form>
       <a href="login">
@@ -27,6 +27,6 @@ const SignUp: React.FC = () => (
       </a>
     </Content>
   </Container>
-)
+);
 
 export default SignUp;
