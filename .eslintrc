@@ -38,6 +38,7 @@
     "react-hooks/exhaustive-deps": "warn",
     "no-unused-expressions": "off",
     "no-use-before-define": "off",
+    "import/no-unresolved": "off",
     "react/jsx-filename-extension": [
       1,
       {
